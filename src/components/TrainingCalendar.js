@@ -19,8 +19,8 @@ function TrainingCalendar() {
             setEvents(
                 data.map((item) => ({
                     start: moment.utc(item.date).toDate(),
-                    title: `${item.activity} / ${item.customer.firstname} ${item.customer.lastname}`,
-                    end: moment.utc(item.date).add(item.duration, 'minutes').toDate()
+                    end: moment.utc(item.date).add(item.duration, 'minutes').toDate(),
+                    title: item.activity + ' / ' + item.customer.firstname + ' ' + item.customer.lastname
                 }))
             );
         })
