@@ -5,11 +5,13 @@ Personal Trainer company needs front end app for their customer database. Databa
 <p>App have pages to list customers and trainings. List pages contain sorting and searching features.</p>
 
 ## List pages have CRUD functions:
-* Add & Edit Customer
-* Delete existing customer (Add also yes/no confirmation dialog)
-* Add training to customer
-* Delete training (Add also yes/no confirmation dialog)
+- [x] Add & Edit Customer
+- [x] Delete existing customer (Add also yes/no confirmation dialog)
+- [x] Add training to customer
+- [x] Delete training (Add also yes/no confirmation dialog)
+
 <p>App also have calendar page where personal trainer can see all trainings (monthly, weekly, daily).</p>
-<p>Bonus Task:<br>
-Statistics page where user can see the amount of minutes by different activities. Statistics are shown in bar chart. https://github.com/recharts/recharts</p>
+
+## Bonus Task:
+- [x] Statistics page where user can see the amount of minutes by different activities. Statistics are shown in bar chart. https://github.com/recharts/recharts</p>
 
